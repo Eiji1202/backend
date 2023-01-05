@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oders",
+  "info": {
+    "name": "oder"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "dishes": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "biginteger"
+    }
+  }
+}
